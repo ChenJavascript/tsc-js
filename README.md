@@ -1,1 +1,1 @@
-# tsc-js
+wechaty-bot
