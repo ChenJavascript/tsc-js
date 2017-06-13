@@ -2,18 +2,19 @@
   "name": "wechat-bot",
   "version": "1.0.0",
   "description": "wechat-bot",
+  "author": "chensk",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChenJavascript/tsc-js.git"
-  },
-  "author": "chensk",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ChenJavascript/tsc-js/issues"
-  },
-  "homepage": "https://github.com/ChenJavascript/tsc-js#readme"
+  "dependencies": {
+    "@types/inquirer": "0.0.33",
+    "clear": "0.0.1",
+    "express": "5.0.0-alpha.5",
+    "inquirer": "^3.0.6",
+    "minimist": "^1.2.0",
+    "request": "^2.81.0",
+    "wechaty": "^0.8.100"
+  }
 }
